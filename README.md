@@ -1,2 +1,3 @@
 # First_Project
-First Project
+
+This will be the first project. Learning to create a webpage...
