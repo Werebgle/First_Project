@@ -9,8 +9,9 @@
 
 		<title>Chris Woodhouse | First Project</title>
 
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 	</head>
 
 	<body>
@@ -20,28 +21,29 @@
 			h1 {
 				color: red;
 				text-align: center;
-				border: solid blue 10px;
+				text-decoration: underline;
 				padding: 50px;
 			}
-
 
 		</style>
 
 		<header>
-			
-			<p style ="color: green; text-align: center; text-decoration: underline;">Header Element with Inline CSS Styling</p>
-			<h1>Example of H1 Element (with style tag)</h1>
-			<h2 id="color">Example of H2 Element with CSS ID Selector</h2>
-			<h3 class ="colorClass">Example of H3 Element with CSS Class Selector</h3>
 
+			<div class="divClass divPadding divBorder">
+				<p style ="color: green; text-align: center; text-decoration: underline; font-size: 60px;">Header Element with Inline CSS Styling</p>
+				<h1>Example of H1 Element (with style tag)</h1>
+				<h2 id="color">Example of H2 Element with CSS ID Selector</h2>
+				<h3 class ="colorClass">Example of H3 Element with CSS Class Selector</h3>
+			</div>
 
 		</header>
 
 		<nav>
+
 			<ul>
-				<li><a href="pages/page1.html">Link to Page 1</a></li>
-				<li><a href="pages/page2.html">Link to Page 2</a></li>
-				<li><a href="pages/page3.html">Link to Page 3</a></li>
+				<li><a href="pages/html_tags.html">Examples of HTML tags</a></li>
+				<li><a href="pages/styles_page.html">Examples of Styling</a></li>
+				<li><a href="pages/javascript_page.html">Examples of JavaScript</a></li>
 			</ul>
 
 		</nav>
@@ -52,7 +54,6 @@
 
 		<section>
 
-			<p>Section</p>
 			<ul>
 				<li>
 					<a href ="img/img1.jpg">
@@ -92,7 +93,7 @@
 				</li>				
 			</ul>
 
-		</section>
+		</section>	
 
 		<footer>
 
@@ -106,12 +107,8 @@
 				<img src="img/facebook-wrap.png" alt ="Facebook Logo">
 			</a>
 
-		</footer>
-
-
-		
+		</footer>		
 
 	</body>
-
 
 </html>

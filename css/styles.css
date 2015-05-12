@@ -2,19 +2,39 @@
 #color {
 	color: blue;
 	text-align: center;
+	text-decoration: underline;
 	padding: 25px;
 }
 
 .colorClass {
 	color: orange;
 	text-align: center;
+	text-decoration: underline;
 	padding: 15px;
 }
 
-a:link {
-	color: red;
+.divClass {	
+	padding-top: 25px;
 }
 
-a:visited {
-	color: lightblue;
+.divPadding {
+	background-color: tomato;
+}
+
+.divBorder {
+	border: solid maroon 10px;
+}
+
+
+
+.exampleTag {
+	padding: 25px;
+	border-bottom: solid blue 5px;	
+}
+
+#h1_page1 {
+	color: green;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 72px;
 }
