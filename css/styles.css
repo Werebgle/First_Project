@@ -1,20 +1,21 @@
+/*INDEX PAGE CSS*/
 
 #color {
 	color: blue;
 	text-align: center;
 	text-decoration: underline;
-	padding: 25px;
+	padding: 2em;
 }
 
 .colorClass {
 	color: orange;
 	text-align: center;
 	text-decoration: underline;
-	padding: 15px;
+	padding: 1em;
 }
 
 .divClass {	
-	padding-top: 25px;
+	padding-top: 2em;
 }
 
 .divPadding {
@@ -22,10 +23,15 @@
 }
 
 .divBorder {
-	border: solid maroon 10px;
+	border: solid maroon .75em;
+	border-radius: 2em;
 }
 
+.divWidth {
+	max-width: 80%;
+}
 
+/*HTML_TAGS PAGE CSS*/
 
 .exampleTag {
 	padding: 25px;

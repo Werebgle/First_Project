@@ -29,8 +29,8 @@
 
 		<header>
 
-			<div class="divClass divPadding divBorder">
-				<p style ="color: green; text-align: center; text-decoration: underline; font-size: 60px;">Header Element with Inline CSS Styling</p>
+			<div class="divClass divPadding divBorder divWidth">
+				<p style ="color: green; text-align: center; text-decoration: underline; font-size: 4em;">Header Element with Inline CSS Styling</p>
 				<h1>Example of H1 Element (with style tag)</h1>
 				<h2 id="color">Example of H2 Element with CSS ID Selector</h2>
 				<h3 class ="colorClass">Example of H3 Element with CSS Class Selector</h3>
@@ -107,7 +107,31 @@
 				<img src="img/facebook-wrap.png" alt ="Facebook Logo">
 			</a>
 
-		</footer>		
+		</footer>	
+
+<!-- TRYING THE @MEDIA SCRIPT FOR RESPONSIVENESS -->
+
+		<style>
+			body {
+    			background-color: lightgreen;
+			}
+
+			@media screen and (max-width: 1000px) {
+   				body {
+       				 background-color: red;
+   				}
+   				.divBorder {
+					border: solid blue .75em;
+					border-radius: 2em;
+				}
+
+			@media screen and (max-width: 300px) {
+   				body {
+       				 background-color: lightblue;
+    			}
+			}
+
+		</style>	
 
 	</body>
 
