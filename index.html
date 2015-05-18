@@ -12,39 +12,28 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
+		<script src="js/scripts.js"></script>
+
 	</head>
 
 	<body>
 
-		<style>
-
-			h1 {
-				color: red;
-				text-align: center;
-				text-decoration: underline;
-				padding: 50px;
-			}
-
-		</style>
-
 		<header>
 
-			<div class="divClass divPadding divBorder divWidth">
+			<div class="divClass">
 				<p style ="color: green; text-align: center; text-decoration: underline; font-size: 4em;">Header Element with Inline CSS Styling</p>
-				<h1>Example of H1 Element (with style tag)</h1>
+				<h1 class="h1Class">Web Page Mockup</h1>
 				<h2 id="color">Example of H2 Element with CSS ID Selector</h2>
 				<h3 class ="colorClass">Example of H3 Element with CSS Class Selector</h3>
 			</div>
 
 		</header>
 
-		<nav>
-
-			<ul>
-				<li><a href="pages/html_tags.html">Examples of HTML tags</a></li>
-				<li><a href="pages/styles_page.html">Examples of Styling</a></li>
-				<li><a href="pages/javascript_page.html">Examples of JavaScript</a></li>
-			</ul>
+		<nav class="navClass">
+			
+				<a href="pages/html_tags.html">Examples of HTML tags</a><br>
+				<a href="pages/styles_page.html">Examples of Styling</a><br>
+				<a href="pages/javascript_page.html">Examples of JavaScript</a>
 
 		</nav>
 
@@ -52,60 +41,57 @@
 		<br>
 		<a href="http://www.google.com">Anchor Element to Google</a>
 
-		<section>
-
-			<ul>
-				<li>
+		<section class="sectionClass">
+			
 					<a href ="img/img1.jpg">
-						<img src ="img/img1.jpg" alt="">
-						<p>Example of Image Link 1</p>
+						<img class="thumbnail" src ="img/img1.jpg" alt="">
+						<!-- <p>Example of Image Link 1</p> -->
 					</a>
-				</li>
-				<li>
+				
 					<a href ="img/img2.jpg">
-						<img src ="img/img2.jpg" alt="">
-						<p>Example of Image Link 2</p>
+						<img class="thumbnail" src ="img/img2.jpg" alt="">
+						<!-- <p class="textLine">Example of Image Link 2</p> -->
 					</a>
-				</li>
-				<li>
+				
 					<a href ="img/img3.jpg">
-						<img src ="img/img3.jpg" alt="">
-						<p>Example of Image Link 3</p>
+						<img class="thumbnail" src ="img/img3.jpg" alt="">
+						<!-- <p class="textLine">Example of Image Link 3</p> -->
 					</a>
-				</li>
-				<li>
-					<a href ="img/img4.jpg">
-						<img src ="img/img4.jpg" alt="">
-						<p>Example of Image Link 4</p>
-					</a>
-				</li>
-				<li>
-					<a href ="img/img5.jpg">
-						<img src ="img/img5.jpg" alt="">
-						<p>Example of Image Link 5</p>
-					</a>
-				</li>
-				<li>
-					<a href ="img/img6.jpg">
-						<img src ="img/img6.jpg" alt="">
-						<p>Example of Image Link 6</p>
-					</a>
-				</li>				
-			</ul>
 
+		</section>
+
+		<section class="textLine sectionClass">
+				
+					<a href ="img/img4.jpg">
+						<img class="thumbnail" src ="img/img4.jpg" alt="">
+						<!-- <p class="textLine">Example of Image Link 4</p> -->
+					</a>
+				
+					<a href ="img/img5.jpg">
+						<img class="thumbnail" src ="img/img5.jpg" alt="">
+						<!-- <p class="textLine">Example of Image Link 5</p> -->
+					</a>
+				
+					<a href ="img/img6.jpg">
+						<img class="thumbnail" src ="img/img6.jpg" alt="">
+						<!-- <p class="textLine">Example of Image Link 6</p> -->
+					</a>
+				
 		</section>	
 
-		<footer>
+		<footer class="textLine socialMediaClass">
 
-			<p>Footer</p>
+			<div>
 
-			<a href ="http://twitter.com/time2gohunting">
-				<img src="img/twitter-wrap.png" alt ="Twitter Logo">
-			</a>
+				<a href ="http://twitter.com/time2gohunting">
+					<img src="img/twitter-wrap.png" alt ="Twitter Logo">
+				</a>
 
-			<a href ="http://facebook.com/">
-				<img src="img/facebook-wrap.png" alt ="Facebook Logo">
-			</a>
+				<a href ="http://facebook.com/">
+					<img src="img/facebook-wrap.png" alt ="Facebook Logo">
+				</a>
+
+			</div>
 
 		</footer>	
 
@@ -132,7 +118,7 @@
 			}
 
 		</style>	
-
+		
 	</body>
 
 </html>

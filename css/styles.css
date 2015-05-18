@@ -1,6 +1,4 @@
-/*INDEX PAGE CSS*/
-
-#color {
+.color {
 	color: blue;
 	text-align: center;
 	text-decoration: underline;
@@ -16,22 +14,20 @@
 
 .divClass {	
 	padding-top: 2em;
-}
-
-.divPadding {
 	background-color: tomato;
-}
-
-.divBorder {
 	border: solid maroon .75em;
 	border-radius: 2em;
-}
-
-.divWidth {
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 80%;
 }
 
-/*HTML_TAGS PAGE CSS*/
+.h1Class {
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	padding: 50px;
+}
 
 .exampleTag {
 	padding: 25px;
@@ -43,4 +39,35 @@
 	text-align: center;
 	text-decoration: underline;
 	font-size: 72px;
+}
+
+.thumbnail {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	padding: 5px;
+	background-color: blue;
+	border: solid blue 3px;
+	border-radius: 10px;
+}
+
+.textLine {
+    clear: both;
+}
+
+.socialMediaClass {
+	padding-top: 100px;
+	border-top: solid grey 2px;
+}
+
+.sectionClass {
+	padding: 25px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.navClass {
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
